@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Injected Artistry x AG1 Consulting | A Plan to Match Your Reputation</title>
+<meta name="description" content="A private walkthrough for Injected Artistry: why AI search can't see you, a working sample homepage built for you, and the plan to turn your 5.0 reputation into booked visits.">
+<meta name="robots" content="noindex, nofollow">
+<meta property="og:title" content="Injected Artistry x AG1 Consulting">
+<meta property="og:description" content="You've earned a 5.0 reputation on the Peninsula. Here is why your website isn't showing it, a working sample I built for you, and the plan to fix it.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23091523'/%3E%3Ctext x='32' y='45' font-family='Georgia,serif' font-size='34' font-weight='700' fill='%23c4a052' text-anchor='middle'%3EAG%3C/text%3E%3C/svg%3E">
+<style>
+  :root{--navy:#0d1f33;--navy-2:#13293f;--navy-deep:#091523;--gold:#c4a052;--gold-soft:#d9be7e;--ink:#1a2330;--paper:#f7f5f0;--paper-2:#efeae0;--line:rgba(196,160,82,.35);--muted:#5d6775}
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{font-family:'Inter',system-ui,sans-serif;color:var(--ink);background:var(--paper);line-height:1.65;-webkit-font-smoothing:antialiased}
+  h1,h2,h3,.serif{font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;line-height:1.14;letter-spacing:.2px}
+  a{color:inherit;text-decoration:none}
+  img{max-width:100%;display:block}
+  .wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+  .btn{display:inline-block;background:var(--gold);color:var(--navy-deep);font-weight:600;font-size:15px;padding:14px 28px;border-radius:4px;transition:transform .15s,background .2s;border:0;cursor:pointer}
+  .btn:hover{background:var(--gold-soft);transform:translateY(-1px)}
+  .btn-ghost{background:transparent;border:1px solid var(--gold);color:var(--gold)}
+  .btn-ghost:hover{background:var(--gold);color:var(--navy-deep)}
+  .eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:12px;letter-spacing:3px;text-transform:uppercase;color:var(--gold);font-weight:600;margin-bottom:18px}
+  .eyebrow:before{content:"";width:30px;height:1px;background:var(--gold)}
+
+  /* top bar */
+  .topbar{background:var(--navy-deep);border-bottom:1px solid rgba(196,160,82,.2)}
+  .topbar .wrap{display:flex;justify-content:space-between;align-items:center;height:66px}
+  .ag{font-family:'Cormorant Garamond',serif;color:#fff;font-size:21px;font-weight:700;letter-spacing:1px}
+  .ag b{color:var(--gold)}
+  .topbar .for{color:#8a99aa;font-size:12.5px;letter-spacing:1px}
+  .topbar .for b{color:#d8dde4}
+
+  /* hero */
+  .hero{background:linear-gradient(160deg,var(--navy-deep),var(--navy) 60%,var(--navy-2));color:#fff;padding:70px 0 64px;position:relative;overflow:hidden}
+  .hero:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 85% 10%,rgba(196,160,82,.13),transparent 45%)}
+  .hero .wrap{position:relative}
+  .hero h1{font-size:clamp(34px,4.6vw,54px);color:#fff;max-width:830px}
+  .hero h1 em{font-style:italic;color:var(--gold-soft)}
+  .hero p{color:#c6cfda;font-size:18px;max-width:680px;margin:22px 0 14px}
+  .hero .warm{font-size:14.5px;color:#9fb0c2;background:rgba(196,160,82,.08);border:1px solid var(--line);border-radius:5px;padding:12px 16px;display:inline-block;margin-bottom:26px}
+  .hero-cta{display:flex;gap:14px;flex-wrap:wrap;margin-top:8px}
+
+  section{padding:72px 0}
+  .tint{background:var(--paper-2)}
+  h2.big{font-size:clamp(28px,3.4vw,42px);color:var(--navy);margin-bottom:8px}
+  .lead{color:var(--muted);font-size:17px;max-width:720px}
+
+  /* finding */
+  .finding{background:#fff;border:1px solid #e7e1d4;border-left:4px solid #c0392b;border-radius:8px;padding:30px 32px;margin-top:26px}
+  .finding.amber{border-left-color:#b9821f}
+  .finding .tag{display:inline-block;background:#fbeae8;color:#c0392b;font-weight:700;font-size:11.5px;letter-spacing:1.5px;text-transform:uppercase;padding:5px 11px;border-radius:3px;margin-bottom:14px}
+  .finding.amber .tag{background:#fdf3e3;color:#b9821f}
+  .finding h3{font-size:23px;color:var(--navy);margin-bottom:10px}
+  .finding p{color:#3f4a59;font-size:15.5px;margin-bottom:12px}
+  .code{background:var(--navy-deep);color:#e7c87a;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:13.5px;padding:13px 16px;border-radius:5px;overflow-x:auto;margin:8px 0 14px}
+  .code .miss{color:#ff8f87}
+  .code .ok{color:#7fd49a}
+  .twocol{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:8px}
+  .mini{background:var(--paper);border:1px solid #e7e1d4;border-radius:6px;padding:18px 18px}
+  .mini b{display:block;color:var(--navy);font-family:'Cormorant Garamond',serif;font-size:18px;margin-bottom:4px}
+  .mini span{font-size:13.5px;color:var(--muted)}
+  @media(max-width:760px){.twocol{grid-template-columns:1fr}}
+
+  /* demo preview */
+  .demo .frame{margin-top:28px;border-radius:10px;overflow:hidden;border:1px solid #d8d0bf;box-shadow:0 26px 60px rgba(13,31,51,.18);background:#fff}
+  .demo .bar{display:flex;align-items:center;gap:8px;background:var(--navy-deep);padding:11px 16px}
+  .demo .bar .d{width:11px;height:11px;border-radius:50%;display:inline-block}
+  .demo .bar .r{background:#ff5f56}.demo .bar .y{background:#ffbd2e}.demo .bar .g{background:#27c93f}
+  .demo .bar .url{margin-left:12px;color:#8a99aa;font-size:12.5px;font-family:ui-monospace,monospace}
+  .demo iframe{width:100%;height:560px;border:0;display:block;background:#fff}
+  .demo .cta-row{display:flex;gap:14px;flex-wrap:wrap;margin-top:22px;align-items:center}
+  @media(max-width:760px){.demo iframe{height:420px}}
+
+  /* scorecard */
+  .score{width:100%;border-collapse:collapse;margin-top:24px;background:#fff;border:1px solid #e7e1d4;border-radius:8px;overflow:hidden}
+  .score th,.score td{padding:14px 16px;text-align:left;font-size:14.5px;border-bottom:1px solid #efeae0}
+  .score th{background:var(--navy);color:#fff;font-weight:600;letter-spacing:.4px}
+  .score td:first-child{font-weight:600;color:var(--navy)}
+  .grade{font-weight:700;padding:3px 10px;border-radius:4px;font-size:13px}
+  .g-f{background:#fbeae8;color:#c0392b}.g-c{background:#fdf3e3;color:#b9821f}.g-d{background:#fbeae8;color:#c0392b}.g-a{background:#e7f6ec;color:#1f7a47}
+  .score tr:last-child td{border-bottom:0}
+
+  /* roadmap */
+  .phases{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:26px}
+  .phase{background:#fff;border:1px solid #e7e1d4;border-top:3px solid var(--gold);border-radius:6px;padding:22px 20px}
+  .phase .n{font-family:'Cormorant Garamond',serif;color:var(--gold);font-size:14px;letter-spacing:2px;text-transform:uppercase;margin-bottom:8px}
+  .phase b{display:block;color:var(--navy);font-size:16px;margin-bottom:8px;font-family:'Cormorant Garamond',serif}
+  .phase p{font-size:13.5px;color:var(--muted)}
+  @media(max-width:860px){.phases{grid-template-columns:1fr 1fr}}
+  @media(max-width:520px){.phases{grid-template-columns:1fr}}
+
+  /* about andrei */
+  .about{background:linear-gradient(160deg,var(--navy),var(--navy-deep));color:#fff}
+  .about .wrap{display:grid;grid-template-columns:1fr 1.3fr;gap:44px;align-items:center}
+  .about h2{color:#fff;font-size:clamp(26px,3.2vw,38px);margin-bottom:14px}
+  .about p{color:#c6cfda;font-size:16px;margin-bottom:14px}
+  .about .stats{display:flex;gap:30px;flex-wrap:wrap;margin-top:18px}
+  .about .stats b{font-family:'Cormorant Garamond',serif;color:var(--gold);font-size:30px;display:block}
+  .about .stats span{font-size:13px;color:#9fb0c2}
+  .about .card{background:rgba(196,160,82,.08);border:1px solid var(--line);border-radius:10px;padding:28px}
+  .about .card .ag{font-size:26px}
+  .about .card p{font-size:14.5px;margin:10px 0 0}
+  .about .links{margin-top:16px;display:flex;gap:16px;flex-wrap:wrap}
+  .about .links a{color:var(--gold);font-size:13.5px}
+  @media(max-width:760px){.about .wrap{grid-template-columns:1fr;gap:26px}}
+
+  /* final */
+  .final{background:var(--paper-2);text-align:center}
+  .final h2{font-size:clamp(28px,3.6vw,44px);color:var(--navy);max-width:680px;margin:0 auto 14px}
+  .final p{color:var(--muted);font-size:17px;max-width:560px;margin:0 auto 24px}
+  .sign{margin-top:30px;color:var(--muted);font-size:15px}
+  .sign b{color:var(--navy)}
+
+  footer{background:var(--navy-deep);color:#6f7c8b;padding:30px 0;font-size:12.5px;text-align:center}
+  .reveal{opacity:0;transform:translateY(22px);transition:opacity .7s,transform .7s}
+  .reveal.in{opacity:1;transform:none}
+  @media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="wrap">
+    <a href="https://andrei170.github.io/ag1/" target="_blank" rel="noopener" class="ag">AG<b>1</b> Consulting</a>
+    <div class="for">PREPARED FOR <b>Injected Artistry</b></div>
+  </div>
+</div>
+
+<section class="hero">
+  <div class="wrap">
+    <span class="eyebrow">Private Walkthrough</span>
+    <h1>You've earned a 5.0 reputation on the Peninsula. Right now, your website is <em>hiding it.</em></h1>
+    <p>I took a close look at injectedartistry.com. The site loads fine, but it buries the two things that actually win new patients, your nurse-led credentials and your 5.0 reviews. And to AI search, your business is almost invisible. Below is the proof, a working sample homepage I built for you, and the plan to fix it.</p>
+    <div class="warm">Nadia pointed me your way after her mom's visit with Jaime. This was built specifically for Injected Artistry, not a template.</div>
+    <div class="hero-cta">
+      <a href="https://calendly.com/ag-copy/call-with-andrei" target="_blank" rel="noopener" class="btn">Book a 15-Minute Call</a>
+      <a href="#demo" class="btn btn-ghost">See the Sample I Built</a>
+    </div>
+  </div>
+</section>
+
+<!-- THE FINDING -->
+<section>
+  <div class="wrap">
+    <span class="eyebrow reveal">What I Found</span>
+    <h2 class="big reveal">To Google and AI, your site never says you're a med spa</h2>
+    <p class="lead reveal">Your pages are indexed, so that is not the problem. The problem is underneath: the code carries none of the structured data a medical business needs to be understood and recommended.</p>
+    <div class="finding reveal">
+      <span class="tag">Critical</span>
+      <h3>Your site has no business or review data Google and AI can read</h3>
+      <p>I pulled the structured data from your homepage. Here is what is there, and what is missing:</p>
+      <div class="code"><span class="ok">Present:</span> WebPage, Article, BreadcrumbList, WebSite<br><span class="miss">Missing:</span> MedicalBusiness, AggregateRating (your 5.0), Services, Hours, Location</div>
+      <p>When someone asks ChatGPT or Google's AI for "the best med spa in Monterey," those tools read this hidden data to decide who to name. Yours never tells them you are a med spa, that you are rated 5.0, what you offer, or where you are. The clinics that add it get cited. You get skipped.</p>
+      <div class="twocol">
+        <div class="mini"><b>The proof</b><span>Your homepage title tag literally reads "Injected Artistry - Injected Artistry," with no services and no city for search to grab onto.</span></div>
+        <div class="mini"><b>The fix</b><span>The sample I built ships with full MedicalBusiness schema: your services, hours, location, founders and 5.0 rating, ready for AI search.</span></div>
+      </div>
+    </div>
+    <div class="finding amber reveal">
+      <span class="tag">Opportunity</span>
+      <h3>The homepage doesn't lead with what makes patients trust you</h3>
+      <p>Choosing an injector is a high-stakes decision, and the first thing a nervous new patient wants to know is "am I in safe hands?" Your current homepage opens with general service copy. It does not lead with the fact that every treatment is performed by a licensed RN under a physician, or that you hold a 5.0 rating across hundreds of visits. That trust is your strongest selling point, and right now a visitor has to dig for it.</p>
+    </div>
+  </div>
+</section>
+
+<!-- DEMO -->
+<section id="demo" class="tint demo">
+  <div class="wrap">
+    <span class="eyebrow reveal">So I Built You One</span>
+    <h2 class="big reveal">A working sample homepage, made for Injected Artistry</h2>
+    <p class="lead reveal">Same business, same real photos, reviews and team, rebuilt to open with your nurse-led credentials and 5.0 reputation, and structured so AI search can finally read you. It leads with the patient's real question, who is holding the needle, and answers it with your credentials. This is a live page you can click through right now.</p>
+    <div class="frame reveal">
+      <div class="bar"><span class="d r"></span><span class="d y"></span><span class="d g"></span><span class="url">andrei170.github.io/injected-artistry-site</span></div>
+      <iframe src="https://andrei170.github.io/injected-artistry-site/" title="Injected Artistry sample homepage" loading="lazy"></iframe>
+    </div>
+    <div class="cta-row reveal">
+      <a href="https://andrei170.github.io/injected-artistry-site/" target="_blank" rel="noopener" class="btn">Open the Full Sample</a>
+      <span style="color:var(--muted);font-size:14px">Built to lead with trust and book consultations.</span>
+    </div>
+  </div>
+</section>
+
+<!-- SCORECARD -->
+<section>
+  <div class="wrap">
+    <span class="eyebrow reveal">The Audit</span>
+    <h2 class="big reveal">Where you stand today, and where we take it</h2>
+    <p class="lead reveal">I ran a full website, AI-search (AEO) and conversion audit. Here is the honest scorecard.</p>
+    <table class="score reveal">
+      <tr><th>Area</th><th>Today</th><th>Target</th><th>The gap in one line</th></tr>
+      <tr><td>AI search (AEO)</td><td><span class="grade g-f">F</span></td><td><span class="grade g-a">A+</span></td><td>No medical or review schema, so AI tools cannot read or recommend you</td></tr>
+      <tr><td>First impression</td><td><span class="grade g-c">C</span></td><td><span class="grade g-a">A</span></td><td>Homepage opens with generic copy, not your nurse-led credentials</td></tr>
+      <tr><td>Social proof on site</td><td><span class="grade g-d">D</span></td><td><span class="grade g-a">A</span></td><td>A 5.0 rating across platforms, barely surfaced on your own site</td></tr>
+      <tr><td>Technical SEO basics</td><td><span class="grade g-c">C</span></td><td><span class="grade g-a">A</span></td><td>Indexed, but a duplicate title tag with no services or city</td></tr>
+      <tr><td>Conversion path</td><td><span class="grade g-c">C</span></td><td><span class="grade g-a">A+</span></td><td>No clear consultation-first booking flow built to convert</td></tr>
+    </table>
+  </div>
+</section>
+
+<!-- ROADMAP -->
+<section class="tint">
+  <div class="wrap">
+    <span class="eyebrow reveal">The Plan</span>
+    <h2 class="big reveal">Four phases, in order</h2>
+    <p class="lead reveal">Each phase builds on the last, foundation first, paid growth last.</p>
+    <div class="phases">
+      <div class="phase reveal"><span class="n">Phase 1</span><b>Make you visible</b><p>Add full MedicalBusiness schema and fix the title tag so Google and AI can finally read your services, reviews and location. Done in the first week.</p></div>
+      <div class="phase reveal"><span class="n">Phase 2</span><b>Lead with trust</b><p>Launch the new homepage that opens with your nurse-led credentials and 5.0 reviews, with a consultation-first booking flow.</p></div>
+      <div class="phase reveal"><span class="n">Phase 3</span><b>Own Monterey search</b><p>Build out service and location pages so you rank and get cited for what patients actually search across the Peninsula.</p></div>
+      <div class="phase reveal"><span class="n">Phase 4</span><b>Fill the calendar</b><p>Targeted local ads and a steady review-generation routine, once the site is built to convert the traffic.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about">
+  <div class="wrap">
+    <div class="reveal">
+      <span class="eyebrow">Who Is Behind This</span>
+      <h2>Hi, I'm Andrei.</h2>
+      <p>I run AG1 Consulting, a full-stack marketing studio. I taught myself to build the entire engine that gets a business found and booked: websites, search, AI visibility and paid acquisition.</p>
+      <p>I work fast and I work hands-on. The sample homepage above was built for Injected Artistry specifically, before we have even spoken.</p>
+      <div class="stats">
+        <div><b>$1M+</b><span>Client revenue generated</span></div>
+        <div><b>Full-stack</b><span>Web, SEO, AEO, paid</span></div>
+        <div><b>Hands-on</b><span>You work directly with me</span></div>
+      </div>
+    </div>
+    <div class="card reveal">
+      <div class="ag">AG<b style="color:var(--gold)">1</b> Consulting</div>
+      <p>I help clinics and founders turn an underperforming web presence into a steady, measurable flow of new patients.</p>
+      <div class="links">
+        <a href="https://andrei170.github.io/ag1/" target="_blank" rel="noopener">Website</a>
+        <a href="https://www.instagram.com/andre.g1/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.youtube.com/watch?v=qHTdmJBBZoQ" target="_blank" rel="noopener">Case study</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL -->
+<section class="final">
+  <div class="wrap">
+    <h2 class="reveal">Let's turn your reputation into a website that books.</h2>
+    <p class="reveal">A quick 15-minute call. I'll walk you through the schema fix and the new homepage, whether you work with me or not.</p>
+    <a href="https://calendly.com/ag-copy/call-with-andrei" target="_blank" rel="noopener" class="btn reveal">Book a 15-Minute Call</a>
+    <div class="sign reveal">Talk soon,<br><b>Andrei Givero</b> &middot; AG1 Consulting<br><a href="mailto:andreigivero@gmail.com" style="color:var(--gold)">andreigivero@gmail.com</a></div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">Prepared privately for Injected Artistry, Inc. by AG1 Consulting. Not affiliated with or endorsed by the business. &copy; 2026 AG1 Consulting Ltd.</div>
+</footer>
+
+<script>
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.12});
+  document.querySelectorAll('.reveal').forEach(function(el){io.observe(el)});
+</script>
+</body>
+</html>
